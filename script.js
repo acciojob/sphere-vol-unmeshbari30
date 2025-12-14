@@ -11,7 +11,7 @@ function volume_sphere() {
 	}
 
 	let ans = (4/3) * Math.PI * input * input * input
-	volume.value = volume.toFixed(4)
+	volume.value = ans.toFixed(4)
 	
 }   
 
